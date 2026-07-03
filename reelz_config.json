@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "config_version": 7,
+    "config_version": 8,
     "min_app_version": 1,
     "latest_app_version": 2,
     "latest_apk_url": "https://github.com/Abbah77/Reelz_app/releases/download/Reelz/Reelz.apk",
@@ -313,7 +313,7 @@
     "downloads_enabled": true,
     "transfer_enabled": true,
     "shorts_enabled": true,
-    "ads_enabled": true,
+    "ads_enabled": false,
     "force_maintenance": false,
     "maintenance_message": ""
   },
