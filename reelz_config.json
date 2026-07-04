@@ -254,6 +254,186 @@
       },
       "referer": "https://smashystream.com/",
       "origin": "https://smashystream.com"
+    },
+    {
+      "id": "source_9",
+      "name": "VidPlay",
+      "enabled": true,
+      "priority": 8,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://vidplay.one/embed/movie/{tmdb_id}",
+        "tv": "https://vidplay.one/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://vidplay.one/",
+      "origin": "https://vidplay.one"
+    },
+    {
+      "id": "source_10",
+      "name": "Filmex",
+      "enabled": true,
+      "priority": 9,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://filmex.to/embed/movie/{tmdb_id}",
+        "tv": "https://filmex.to/embed/tv/{tmdb_id}?s={season}&e={episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://filmex.to/",
+      "origin": "https://filmex.to"
+    },
+    {
+      "id": "source_11",
+      "name": "TinyZone",
+      "enabled": true,
+      "priority": 10,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://tinyzonetv.to/embed/movie/{tmdb_id}",
+        "tv": "https://tinyzonetv.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://tinyzonetv.to/",
+      "origin": "https://tinyzonetv.to"
+    },
+    {
+      "id": "source_12",
+      "name": "Stream4U",
+      "enabled": true,
+      "priority": 11,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://stream4u.to/embed/movie/{tmdb_id}",
+        "tv": "https://stream4u.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://stream4u.to/",
+      "origin": "https://stream4u.to"
+    },
+    {
+      "id": "source_13",
+      "name": "SolarMovies",
+      "enabled": true,
+      "priority": 12,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://solarmovies.to/embed/movie/{tmdb_id}",
+        "tv": "https://solarmovies.to/embed/tv/{tmdb_id}?season={season}&episode={episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://solarmovies.to/",
+      "origin": "https://solarmovies.to"
+    },
+    {
+      "id": "source_14",
+      "name": "Soap2Day",
+      "enabled": false,
+      "priority": 13,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://soap2day.to/embed/movie/{tmdb_id}",
+        "tv": "https://soap2day.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://soap2day.to/",
+      "origin": "https://soap2day.to"
+    },
+    {
+      "id": "source_15",
+      "name": "YesMovies",
+      "enabled": true,
+      "priority": 14,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://yesmovies.ag/embed/movie/{tmdb_id}",
+        "tv": "https://yesmovies.ag/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://yesmovies.ag/",
+      "origin": "https://yesmovies.ag"
+    },
+    {
+      "id": "source_16",
+      "name": "FMovies",
+      "enabled": true,
+      "priority": 15,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://fmovies.to/embed/movie/{tmdb_id}",
+        "tv": "https://fmovies.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://fmovies.to/",
+      "origin": "https://fmovies.to"
+    },
+    {
+      "id": "source_17",
+      "name": "Putlocker",
+      "enabled": true,
+      "priority": 16,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://putlocker.to/embed/movie/{tmdb_id}",
+        "tv": "https://putlocker.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://putlocker.to/",
+      "origin": "https://putlocker.to"
+    },
+    {
+      "id": "source_18",
+      "name": "AZMovies",
+      "enabled": true,
+      "priority": 17,
+      "requires_js": true,
+      "url_patterns": {
+        "movie": "https://azm.to/embed/movie/{tmdb_id}",
+        "tv": "https://azm.to/embed/tv/{tmdb_id}/{season}/{episode}"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "referer": "https://azm.to/",
+      "origin": "https://azm.to"
     }
   ],
   "user_agents": {
@@ -297,14 +477,14 @@
     "yearly_price_ngn": 12000,
     "paystack_monthly_url": "https://paystack.com/pay/REPLACE_WITH_YOUR_MONTHLY_PAYMENT_LINK",
     "paystack_yearly_url": "https://paystack.com/pay/REPLACE_WITH_YOUR_YEARLY_PAYMENT_LINK",
-    "payment_note": "After paying, return here and tap \"I've already paid \u2014 refresh status\" once we've confirmed it on our end.",
+    "payment_note": "After paying, return here and tap \"I've already paid -- refresh status\" once we've confirmed it on our end.",
     "contact_to_subscribe": "",
     "manual_grants": [
       {
         "email": "example@gmail.com",
         "plan": "monthly",
         "expires_at_ms": 0,
-        "note": "Sample row \u2014 delete this."
+        "note": "Sample row -- delete this."
       }
     ]
   },
@@ -324,35 +504,35 @@
     "for_you_subs": "lol-loop-GfRk3IGcil2+meme-and-scream-yvTjtEYXgS4+netflix-and-more-GHlH5Uah4Y6+shorttv-QIHhE5Hp1m5+tips-and-tricks-ej6mvzgNp3+what-to-watch-Iqy0R3deCq2+funny-nigerians-yDNjGC3D2X9+naija-life-WTb8G0rmLC5+wow-clips-wcmpapcKPi5+sports-zone-GtetQfWpAXa",
     "categories": [
       {
-        "label": "\ud83d\ude02 Funny",
+        "label": "Funny",
         "subs": "lol-loop-GfRk3IGcil2+meme-and-scream-yvTjtEYXgS4+funny-nigerians-yDNjGC3D2X9"
       },
       {
-        "label": "\ud83c\udfac Movies",
+        "label": "Movies",
         "subs": "netflix-and-more-GHlH5Uah4Y6+what-to-watch-Iqy0R3deCq2+shorttv-QIHhE5Hp1m5"
       },
       {
-        "label": "\ud83d\udcfa Short TV",
+        "label": "Short TV",
         "subs": "shorttv-QIHhE5Hp1m5+what-to-watch-Iqy0R3deCq2"
       },
       {
-        "label": "\ud83d\udca1 Tips",
+        "label": "Tips",
         "subs": "tips-and-tricks-ej6mvzgNp3"
       },
       {
-        "label": "\ud83d\udd25 Hot",
+        "label": "Hot",
         "subs": "wow-clips-wcmpapcKPi5+naija-life-WTb8G0rmLC5+lol-loop-GfRk3IGcil2"
       },
       {
-        "label": "\ud83c\uddf3\ud83c\uddec Naija",
+        "label": "Naija",
         "subs": "funny-nigerians-yDNjGC3D2X9+naija-life-WTb8G0rmLC5"
       },
       {
-        "label": "\u26bd Sports",
+        "label": "Sports",
         "subs": "sports-zone-GtetQfWpAXa"
       },
       {
-        "label": "\ud83d\ude2e WOW",
+        "label": "WOW",
         "subs": "wow-clips-wcmpapcKPi5"
       }
     ]
