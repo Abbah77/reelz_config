@@ -313,7 +313,7 @@
     "downloads_enabled": true,
     "transfer_enabled": true,
     "shorts_enabled": true,
-    "ads_enabled": false,
+    "ads_enabled": true,
     "force_maintenance": false,
     "maintenance_message": ""
   },
