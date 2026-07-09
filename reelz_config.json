@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": 1,
-    "config_version": 11,
+    "config_version": 12,
     "min_app_version": 1,
     "latest_app_version": 2,
     "latest_apk_url": "https://github.com/Abbah77/Reelz_app/releases/download/Reelz/Reelz.apk",
     "changelog": "Shorts feed active. Smarter config sync with version checks. Improved in-app update installer."
   },
   "backend": {
-    "backend_url": "https://tt-b577.onrender.com"
+    "backend_url": "https://reelz-l1vp.onrender.com"
   },
   "tmdb": {
     "keys": [
