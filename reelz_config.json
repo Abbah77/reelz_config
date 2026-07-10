@@ -451,8 +451,8 @@
   },
   "tiers": {
     "free": {
-      "max_resolution": "1080p",
-      "max_resolution_height": 480,
+      "max_resolution": "4K",
+      "max_resolution_height": 2160,
       "max_downloads": 5,
       "ads_enabled": true,
       "subtitles_manual_search": false,
