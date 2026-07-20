@@ -1,0 +1,94 @@
+{
+  "title": "Privacy Policy",
+  "version": "1.0",
+  "lastUpdated": "2026-07-20",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": [
+        "This Privacy Policy explains how Axio Studio collects, uses, stores, and protects information when you use Reelz on Android or the web.",
+        "By using Reelz, you acknowledge the practices described in this Policy."
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Information We Collect",
+      "content": [
+        "When you sign in with Google, we may receive your name, email address, profile picture, and Google account identifier.",
+        "We collect usage information such as watch history, search history, favorites, downloads, continue watching, recently played items, clicks, and time spent using Reelz.",
+        "We do not intentionally collect unnecessary device information beyond what is required to operate the service."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "Permissions",
+      "content": [
+        "Depending on the features you use, Reelz may request access to camera, location, nearby devices, Wi\u2011Fi, Bluetooth, and storage to provide offline transfer, downloads, and related features."
+      ]
+    },
+    {
+      "id": "use",
+      "title": "How We Use Information",
+      "content": [
+        "We use information to provide, secure, improve, personalize, and support Reelz and Premium features."
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Analytics",
+      "content": [
+        "Reelz uses Firebase Analytics and Firebase Crashlytics to improve reliability and performance."
+      ]
+    },
+    {
+      "id": "ads",
+      "title": "Advertising",
+      "content": [
+        "Free users may receive ads from third-party advertising partners. Those partners may process information under their own privacy policies."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Payments",
+      "content": [
+        "Premium payments are processed by third-party providers. Reelz receives only the information needed to verify transactions."
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Sharing",
+      "content": [
+        "We do not sell personal information. Limited information may be shared with trusted providers needed to operate Reelz."
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "content": [
+        "We use HTTPS, authenticated services, and reasonable safeguards to protect your information."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Your Rights",
+      "content": [
+        "You may request access, correction, or deletion of your information by contacting support."
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Retention",
+      "content": [
+        "Following a verified deletion request, account information is removed, while limited logs may be retained where necessary."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "content": [
+        "Contact: axio.founder@gmail.com"
+      ]
+    }
+  ]
+}
