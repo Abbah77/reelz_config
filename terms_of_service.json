@@ -1,0 +1,118 @@
+{
+  "title": "Terms of Service",
+  "version": "1.0",
+  "lastUpdated": "2026-07-20",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance of Terms",
+      "content": [
+        "Welcome to Reelz, a service operated by Axio Studio. By accessing or using the Reelz mobile application, website, or related services, you agree to be bound by these Terms of Service.",
+        "If you do not agree to these Terms, you must discontinue use of Reelz immediately."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Eligibility",
+      "content": [
+        "You must be at least 18 years of age to use Reelz.",
+        "By using Reelz, you represent that you have the legal capacity to enter into this agreement."
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Description of the Service",
+      "content": [
+        "Reelz is a global entertainment discovery platform that helps users discover, stream, and download eligible content for offline viewing through publicly available third-party sources.",
+        "Reelz does not claim ownership of third-party content. Availability may change without notice."
+      ]
+    },
+    {
+      "id": "accounts",
+      "title": "Accounts",
+      "content": [
+        "Most features are available without an account. Google Sign-In is required for Premium features.",
+        "Users may request account deletion by contacting support and providing sufficient information to verify ownership."
+      ]
+    },
+    {
+      "id": "premium",
+      "title": "Premium Subscription",
+      "content": [
+        "Premium is optional and provides additional features such as enhanced download quality, an ad-free experience, and other eligible benefits.",
+        "Premium is not automatically renewed. A one-day grace period may apply after expiration."
+      ]
+    },
+    {
+      "id": "acceptable_use",
+      "title": "Acceptable Use",
+      "content": [
+        "You agree not to reverse engineer, modify, distribute, scrape, abuse APIs, bypass security, create unauthorized automation, impersonate others, introduce malware, exploit vulnerabilities, or interfere with the operation of Reelz.",
+        "Violation of these Terms may result in suspension or termination."
+      ]
+    },
+    {
+      "id": "ads",
+      "title": "Advertising",
+      "content": [
+        "Free users may be shown advertisements. Axio Studio may change advertising providers or methods at any time."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Intellectual Property",
+      "content": [
+        "Except for third-party content, the Reelz name, logo, branding, software, source code, interface, graphics, databases, and related intellectual property belong to Axio Studio or its licensors."
+      ]
+    },
+    {
+      "id": "thirdparty",
+      "title": "Third-Party Services",
+      "content": [
+        "Reelz may rely on third-party providers for authentication, payments, metadata, hosting, analytics, and other operational functions. Their services are governed by their own terms and policies."
+      ]
+    },
+    {
+      "id": "availability",
+      "title": "Availability",
+      "content": [
+        "Reelz is provided on an 'as is' and 'as available' basis. We do not guarantee uninterrupted or error-free operation and may modify, suspend, or discontinue any feature at any time."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Limitation of Liability",
+      "content": [
+        "To the maximum extent permitted by applicable law, Axio Studio shall not be liable for losses arising from interruptions, third-party content, network failures, failed downloads, or loss of offline data."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "Termination",
+      "content": [
+        "We may suspend or terminate access for violations of these Terms or to protect the security and integrity of the platform."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to these Terms",
+      "content": [
+        "We may revise these Terms periodically. Continued use after updated Terms become effective constitutes acceptance of the revised Terms."
+      ]
+    },
+    {
+      "id": "governing_law",
+      "title": "Governing Law",
+      "content": [
+        "These Terms are governed by the laws of the Federal Republic of Nigeria, unless otherwise required by applicable law."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "content": [
+        "Questions regarding these Terms may be sent to axio.founder@gmail.com with the subject line 'REELZ'."
+      ]
+    }
+  ]
+}
