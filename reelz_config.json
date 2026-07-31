@@ -9,7 +9,7 @@
   },
   "backend": {
     "backend_url": "https://reelz-l1vp.onrender.com",
-    "stream_url": "REPLACE_WITH_YOUR_STREAM_ENGINE_URL",
+    "stream_url":  "https://reelz-backend.onrender.com",
     "shorts_url": "REPLACE_WITH_YOUR_SHORTS_BACKEND_URL"
   },
   "tmdb": {
