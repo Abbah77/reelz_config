@@ -1,52 +1,42 @@
 {
   "meta": {
     "schema_version": 1,
-    "config_version": 1,
+    "config_version": 2,
     "min_app_version": 1,
     "latest_app_version": 2,
     "latest_apk_url": "https://github.com/Abbah77/Reelz_app/releases/download/Reelz/Reelz.apk",
-    "changelog": "Shorts feed active. Smarter config sync with version checks. Improved in-app update installer. Streaming quality unlocked for all tiers (ads remain the free-tier trade-off); download quality is now a separate, independently configurable cap."
+    "changelog": "v2: Stream engine moved server-side. App now thin: one POST per play/download. Added stream_url (media engine) and shorts_url (shorts backend) to backend block. stream_sources now server-only (client_side: false). scanner block removed. Auth/subscription unchanged on backend_url."
   },
   "backend": {
-    "backend_url": "https://reelz-l1vp.onrender.com"
+    "backend_url": "https://reelz-l1vp.onrender.com",
+    "stream_url": "REPLACE_WITH_YOUR_STREAM_ENGINE_URL",
+    "shorts_url": "REPLACE_WITH_YOUR_SHORTS_BACKEND_URL"
   },
   "tmdb": {
     "keys": [
-      { "id": "k1", "key": "1eef1496d59aa06f62e201ddce2741b4", "weight": 10, "enabled": true },
-      { "id": "k2", "key": "84f1461a2d117abbd44d3add107188d0", "weight": 8, "enabled": false },
-      { "id": "k3", "key": "b8f51b5206d37dbda94f6bab13ee2d38", "weight": 6, "enabled": false }
+      {
+        "id": "k1",
+        "key": "1eef1496d59aa06f62e201ddce2741b4",
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "id": "k2",
+        "key": "84f1461a2d117abbd44d3add107188d0",
+        "weight": 8,
+        "enabled": false
+      },
+      {
+        "id": "k3",
+        "key": "b8f51b5206d37dbda94f6bab13ee2d38",
+        "weight": 6,
+        "enabled": false
+      }
     ],
     "base_url": "https://api.themoviedb.org/3",
     "img_w500": "https://image.tmdb.org/t/p/w500",
     "img_w342": "https://image.tmdb.org/t/p/w342",
     "img_original": "https://image.tmdb.org/t/p/original"
-  },
-  "subtitles": {
-    "providers": [
-      {
-        "id": "opensubtitles",
-        "name": "OpenSubtitles",
-        "enabled": true,
-        "keys": [
-          { "id": "os_k1", "key": "C8jjWBqYDBiM4U3QA9xJfmf8BiC2ISyq", "weight": 10, "enabled": true },
-          { "id": "os_k2", "key": "YOUR_SECOND_OS_KEY", "weight": 8, "enabled": false }
-        ],
-        "base_url": "https://api.opensubtitles.com/api/v1",
-        "user_agent": "Reelz v2.0",
-        "daily_limit": 20
-      },
-      {
-        "id": "subdl",
-        "name": "SubDL",
-        "enabled": false,
-        "keys": [
-          { "id": "sdl_k1", "key": "YOUR_SUBDL_KEY", "weight": 10, "enabled": false }
-        ],
-        "base_url": "https://api.subdl.com/api/v1",
-        "user_agent": "Reelz v2.0",
-        "daily_limit": 100
-      }
-    ]
   },
   "ads": {
     "enabled": true,
@@ -74,62 +64,38 @@
       "skip_on_quality_switch": true
     },
     "networks": [
-      { "id": "applovin_max", "enabled": true, "banner_id": "", "interstitial_id": "", "rewarded_id": "", "native_id": "", "app_open_id": "", "vast_tag_url": "" }
+      {
+        "id": "applovin_max",
+        "enabled": true,
+        "banner_id": "",
+        "interstitial_id": "",
+        "rewarded_id": "",
+        "native_id": "",
+        "app_open_id": "",
+        "vast_tag_url": ""
+      }
     ]
-  },
-  "stream_sources": [
-    {
-      "id": "source_1", "name": "Source 1", "enabled": true, "priority": 0, "requires_js": true,
-      "url_patterns": { "movie": "https://vidlink.pro/movie/{tmdb_id}", "tv": "https://vidlink.pro/tv/{tmdb_id}/{season}/{episode}" },
-      "headers": { "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9" },
-      "referer": "https://vidlink.pro/", "origin": "https://vidlink.pro"
-    },
-    {
-      "id": "source_2", "name": "Source 2", "enabled": true, "priority": 1, "requires_js": true,
-      "url_patterns": { "movie": "https://vidsrc.to/embed/movie/{tmdb_id}", "tv": "https://vidsrc.to/embed/tv/{tmdb_id}/{season}/{episode}" },
-      "headers": { "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9" },
-      "referer": "https://vidsrc.to/", "origin": "https://vidsrc.to"
-    },
-    {
-      "id": "source_3", "name": "Source 3", "enabled": true, "priority": 2, "requires_js": true,
-      "url_patterns": { "movie": "https://vidsrc.me/embed/movie?tmdb={tmdb_id}", "tv": "https://vidsrc.me/embed/tv?tmdb={tmdb_id}&season={season}&episode={episode}" },
-      "headers": { "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" },
-      "referer": "https://vidsrc.me/", "origin": "https://vidsrc.me"
-    },
-    {
-      "id": "source_4", "name": "Source 4", "enabled": true, "priority": 3, "requires_js": true,
-      "url_patterns": { "movie": "https://www.2embed.cc/embed/{tmdb_id}", "tv": "https://www.2embed.cc/embedtv/{tmdb_id}&s={season}&e={episode}" },
-      "headers": { "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" },
-      "referer": "https://www.2embed.cc/", "origin": "https://www.2embed.cc"
-    },
-    {
-      "id": "source_5", "name": "Source 5", "enabled": true, "priority": 4, "requires_js": true,
-      "url_patterns": { "movie": "https://embed.su/embed/movie/{tmdb_id}", "tv": "https://embed.su/embed/tv/{tmdb_id}/{season}/{episode}" },
-      "headers": { "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" },
-      "referer": "https://embed.su/", "origin": "https://embed.su"
-    }
-  ],
-  "user_agents": {
-    "chrome_android": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-    "chrome_desktop": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "firefox_android": "Mozilla/5.0 (Android 14; Mobile; rv:125.0) Gecko/125.0 Firefox/125.0"
-  },
-  "scanner": {
-    "direct_timeout_ms": 2000,
-    "webview_timeout_ms": 18000,
-    "global_timeout_ms": 25000,
-    "stagger_ms": 150,
-    "m3u8_pattern": "https?://[^\\s\"'<>]+\\.m3u8[^\\s\"'<>]*",
-    "mp4_pattern": "https?://[^\\s\"'<>]+\\.mp4[^\\s\"'<>]*"
   },
   "tiers": {
     "free": {
-      "max_resolution": "Unlimited", "max_resolution_height": -1, "max_download_resolution_height": -1,
-      "max_downloads": 5, "ads_enabled": true, "subtitles_manual_search": false, "background_play": false, "simultaneous_streams": 1
+      "max_resolution": "Unlimited",
+      "max_resolution_height": -1,
+      "max_download_resolution_height": -1,
+      "max_downloads": 5,
+      "ads_enabled": true,
+      "subtitles_manual_search": false,
+      "background_play": false,
+      "simultaneous_streams": 1
     },
     "premium": {
-      "max_resolution": "Unlimited", "max_resolution_height": -1, "max_download_resolution_height": -1,
-      "max_downloads": -1, "ads_enabled": false, "subtitles_manual_search": true, "background_play": true, "simultaneous_streams": 2
+      "max_resolution": "Unlimited",
+      "max_resolution_height": -1,
+      "max_download_resolution_height": -1,
+      "max_downloads": -1,
+      "ads_enabled": false,
+      "subtitles_manual_search": true,
+      "background_play": true,
+      "simultaneous_streams": 2
     }
   },
   "premium": {
@@ -143,7 +109,12 @@
     "payment_note": "After paying, return here and tap \"I've already paid -- refresh status\" once we've confirmed it on our end.",
     "contact_to_subscribe": "",
     "manual_grants": [
-      { "email": "example@gmail.com", "plan": "monthly", "expires_at_ms": 0, "note": "Sample row -- delete this." }
+      {
+        "email": "example@gmail.com",
+        "plan": "monthly",
+        "expires_at_ms": 0,
+        "note": "Sample row -- delete this."
+      }
     ]
   },
   "feature_flags": {
@@ -166,16 +137,47 @@
       "tiktoks"
     ],
     "categories": [
-      { "label": "Movies", "items": [] },
-      { "label": "Short TV", "items": [] },
-      { "label": "Tips", "items": [] },
-      { "label": "Hot", "items": [] },
-      { "label": "Naija", "items": [] },
-      { "label": "Sports", "items": [] },
-      { "label": "WOW", "items": [] }
+      {
+        "label": "Movies",
+        "items": []
+      },
+      {
+        "label": "Short TV",
+        "items": []
+      },
+      {
+        "label": "Tips",
+        "items": []
+      },
+      {
+        "label": "Hot",
+        "items": []
+      },
+      {
+        "label": "Naija",
+        "items": []
+      },
+      {
+        "label": "Sports",
+        "items": []
+      },
+      {
+        "label": "WOW",
+        "items": []
+      }
     ],
-    "video_extensions": ["mp4", "m4v", "mov", "webm"],
-    "excluded_name_contains": ["thumb", "sample", ".ia.", "__ia_thumb"],
+    "video_extensions": [
+      "mp4",
+      "m4v",
+      "mov",
+      "webm"
+    ],
+    "excluded_name_contains": [
+      "thumb",
+      "sample",
+      ".ia.",
+      "__ia_thumb"
+    ],
     "items_per_page": 3
   }
 }
