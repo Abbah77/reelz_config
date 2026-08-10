@@ -1,1 +1,226 @@
-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
+{
+  "meta": {
+    "schema_version": 1,
+    "config_version": 2,
+    "min_app_version": 1,
+    "latest_app_version": 2,
+    "latest_apk_url": "https://github.com/Abbah77/Reelz_app/releases/download/Reelz/Reelz.apk",
+    "changelog": "v2: Stream Boost."
+  },
+  "backend": {
+    "backend_url": "https://reelz-l1vp.onrender.com",
+    "stream_url": "https://reelz-backend.onrender.com",
+    "shorts_url": "MY_SHORTS_BACKEND_URL",
+    "app_token": "MY_64_CHAR_SECRET_TOKEN"
+  },
+  "tmdb": {
+    "keys": [
+      {
+        "id": "k1",
+        "key": "1eef1496d59aa06f62e201ddce2741b4",
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "id": "k2",
+        "key": "84f1461a2d117abbd44d3add107188d0",
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "id": "k3",
+        "key": "b8f51b5206d37dbda94f6bab13ee2d38",
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "id": "k4",
+        "key": "REPLACE_WITH_TMDB_KEY_4",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k5",
+        "key": "REPLACE_WITH_TMDB_KEY_5",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k6",
+        "key": "KEY6",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k7",
+        "key": "KEY7",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k8",
+        "key": "KEY8",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k9",
+        "key": "KEY9",
+        "weight": 10,
+        "enabled": false
+      },
+      {
+        "id": "k10",
+        "key": "KEY10",
+        "weight": 10,
+        "enabled": false
+      }
+    ],
+    "base_url": "https://api.themoviedb.org/3",
+    "img_w500": "https://image.tmdb.org/t/p/w500",
+    "img_w342": "https://image.tmdb.org/t/p/w342",
+    "img_original": "https://image.tmdb.org/t/p/original"
+  },
+  "ads": {
+    "enabled": true,
+    "applovin_sdk_key": "",
+    "mediation_provider": "max",
+    "placements": {
+      "banner_enabled": true,
+      "interstitial_enabled": true,
+      "rewarded_enabled": true,
+      "native_enabled": true,
+      "app_open_enabled": true,
+      "preroll_enabled": true
+    },
+    "interstitial_frequency": {
+      "min_ms_between": 180000,
+      "max_per_session": 6,
+      "content_opens_before_first": 2,
+      "every_n_plays": 2,
+      "retry_delay_ms": 30000
+    },
+    "preroll": {
+      "show_on_movies_only": true,
+      "min_minutes_between": 30,
+      "skip_on_resume": true,
+      "skip_on_quality_switch": true
+    },
+    "networks": [
+      {
+        "id": "applovin_max",
+        "enabled": true,
+        "banner_id": "",
+        "interstitial_id": "",
+        "rewarded_id": "",
+        "native_id": "",
+        "app_open_id": "",
+        "vast_tag_url": ""
+      }
+    ]
+  },
+  "tiers": {
+    "free": {
+      "max_resolution": "Unlimited",
+      "max_resolution_height": -1,
+      "max_download_resolution_height": -1,
+      "max_downloads": 5,
+      "ads_enabled": true,
+      "subtitles_manual_search": false,
+      "background_play": false,
+      "simultaneous_streams": 1
+    },
+    "premium": {
+      "max_resolution": "Unlimited",
+      "max_resolution_height": -1,
+      "max_download_resolution_height": -1,
+      "max_downloads": -1,
+      "ads_enabled": false,
+      "subtitles_manual_search": true,
+      "background_play": true,
+      "simultaneous_streams": 2
+    }
+  },
+  "premium": {
+    "enabled": true,
+    "grace_period_days": 1,
+    "renew_warning_days_before": 3,
+    "monthly_price_ngn": 1500,
+    "yearly_price_ngn": 12000,
+    "paystack_monthly_url": "https://paystack.com/pay/REPLACE_WITH_YOUR_MONTHLY_PAYMENT_LINK",
+    "paystack_yearly_url": "https://paystack.com/pay/REPLACE_WITH_YOUR_YEARLY_PAYMENT_LINK",
+    "payment_note": "After paying, return here and tap \"I've already paid -- refresh status\" once we've confirmed it on our end.",
+    "contact_to_subscribe": "",
+    "manual_grants": [
+      {
+        "email": "example@gmail.com",
+        "plan": "monthly",
+        "expires_at_ms": 0,
+        "note": "Sample row -- delete this."
+      }
+    ]
+  },
+  "feature_flags": {
+    "subtitles_enabled": true,
+    "downloads_enabled": true,
+    "transfer_enabled": true,
+    "shorts_enabled": true,
+    "ads_enabled": true,
+    "force_maintenance": false,
+    "maintenance_message": ""
+  },
+  "shorts": {
+    "archive_org": {
+      "metadata_base_url": "https://archive.org/metadata",
+      "download_base_url": "https://archive.org/download",
+      "thumbnail_base_url": "https://archive.org/services/img",
+      "request_timeout_ms": 12000
+    },
+    "for_you_items": [
+      "tiktoks"
+    ],
+    "categories": [
+      {
+        "label": "Movies",
+        "items": []
+      },
+      {
+        "label": "Short TV",
+        "items": []
+      },
+      {
+        "label": "Tips",
+        "items": []
+      },
+      {
+        "label": "Hot",
+        "items": []
+      },
+      {
+        "label": "Naija",
+        "items": []
+      },
+      {
+        "label": "Sports",
+        "items": []
+      },
+      {
+        "label": "WOW",
+        "items": []
+      }
+    ],
+    "video_extensions": [
+      "mp4",
+      "m4v",
+      "mov",
+      "webm"
+    ],
+    "excluded_name_contains": [
+      "thumb",
+      "sample",
+      ".ia.",
+      "__ia_thumb"
+    ],
+    "items_per_page": 3
+  }
+}
