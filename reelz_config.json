@@ -5,13 +5,12 @@
     "min_app_version": 1,
     "latest_app_version": 2,
     "latest_apk_url": "https://github.com/Abbah77/Reelz_app/releases/download/Reelz/Reelz.apk",
-    "changelog": "v2: Stream Boost."
+    "changelog": "v2: Stream engine moved server-side. App now thin: one POST per play/download. Added stream_url (media engine) and shorts_url (shorts backend) to backend block. stream_sources now server-only (client_side: false). scanner block removed. Auth/subscription unchanged on backend_url."
   },
   "backend": {
     "backend_url": "https://reelz-l1vp.onrender.com",
-    "stream_url": "https://reelz-backend.onrender.com",
-    "shorts_url": "MY_SHORTS_BACKEND_URL",
-    "app_token": "MY_64_CHAR_SECRET_TOKEN"
+    "stream_url":  "https://reelz-backend.onrender.com",
+    "shorts_url": "REPLACE_WITH_YOUR_SHORTS_BACKEND_URL"
   },
   "tmdb": {
     "keys": [
@@ -24,55 +23,13 @@
       {
         "id": "k2",
         "key": "84f1461a2d117abbd44d3add107188d0",
-        "weight": 10,
-        "enabled": true
+        "weight": 8,
+        "enabled": false
       },
       {
         "id": "k3",
         "key": "b8f51b5206d37dbda94f6bab13ee2d38",
-        "weight": 10,
-        "enabled": true
-      },
-      {
-        "id": "k4",
-        "key": "REPLACE_WITH_TMDB_KEY_4",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k5",
-        "key": "REPLACE_WITH_TMDB_KEY_5",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k6",
-        "key": "KEY6",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k7",
-        "key": "KEY7",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k8",
-        "key": "KEY8",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k9",
-        "key": "KEY9",
-        "weight": 10,
-        "enabled": false
-      },
-      {
-        "id": "k10",
-        "key": "KEY10",
-        "weight": 10,
+        "weight": 6,
         "enabled": false
       }
     ],
